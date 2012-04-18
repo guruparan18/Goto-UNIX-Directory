@@ -1,0 +1,12 @@
+"gd" is a UNIX utility that can help you to remember list of directories and go to them when needed.
+
+A handy utility used to have a list of directories remembered and list them for easy browsing.
+
+
+Usage: gd -[aglh] [0-9|DIRECTORY]
+  Example:
+  gd -a /tmp  to add /tmp to the directories remembered.
+  gd -a       to add $PWD to the directories remembered.
+  gd -l       to list all the directory remembered.
+  gd -g 0     to goto directory in 0th position.
+  gd -h       to list this help.
