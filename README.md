@@ -1,5 +1,11 @@
 `"gd"` is a UNIX utility that can help you to remember list of directories and go to them when needed.
 
+# Install
+
+To install, copy the script to the user `"bin"` folder and source it in user profile.
+
+## Usage
+
 ```sh
 Usage: gd [-a|-g|-l|-h] [PATH|PATTERN|NUMBER]
 Examples:
